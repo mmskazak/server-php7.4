@@ -27,7 +27,6 @@ RUN apt-get update && apt-get install -y \
 # Куда же без composer'а.
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-
 #установка mc
 RUN apt-get -y install mc
 
