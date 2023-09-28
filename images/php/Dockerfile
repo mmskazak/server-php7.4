@@ -3,7 +3,7 @@
 # В данном случае мы установим некоторые зависимости и модули PHP.
 # Для установки модулей используем команду docker-php-ext-install.
 # На каждый RUN создается новый слой в образе, поэтому рекомендуется объединять команды.
-FROM php:7.4-fpm
+FROM php:8.1-fpm
 
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
