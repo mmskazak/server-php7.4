@@ -2,7 +2,6 @@ version: '3'
 services:
     nginx:
         image: nginx:latest
-        user: "${USER_UID}:${USER_GID}"
         ports:
             - "80:80"
             - "443:443"
